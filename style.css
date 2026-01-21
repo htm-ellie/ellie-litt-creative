@@ -105,6 +105,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.about-me-text{
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 
 @media (max-width: 900px) {
