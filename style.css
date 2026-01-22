@@ -2,7 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --font-family: "Inter"; sans-serif;
+  --font-family: "Inter", sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
   background: white;
   border-radius: 10px;
 }
-.nav-logo-text{
+.nav-logo-text {
   font-family: var(--font-family);
   font-weight: 900 !important;
 }
@@ -76,20 +76,16 @@ p {
 
 .contact-link {
   background: black;
-  
+
   color: white;
   border-radius: 12px !important;
-  
-  
-
 }
 
 .about-link {
-  color: rgba(0,0,0,0.5);
-  border: 1px solid rgba( 0,0,0,0.4);
-  
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+
   border-radius: 12px !important;
-  
 }
 
 .homepage-link {
@@ -118,12 +114,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.about-me-text{
+.about-me-text {
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
 }
-
 
 @media (max-width: 900px) {
   .descriptions {
@@ -135,22 +130,18 @@ p {
   h1 {
     font-size: 40px !important;
   }
-  
-  
 }
 
-.hero{
+.hero {
   padding-top: 100px !important;
-
 }
 
-.hero h1{
+.hero h1 {
   font-weight: 700;
   font-size: 55px;
 }
-.hero p{
+.hero p {
   background-color: white;
   font-size: 20px;
-  color: rgba(0, 0, 0,0.5)
-  
+  color: rgba(0, 0, 0, 0.5);
 }
