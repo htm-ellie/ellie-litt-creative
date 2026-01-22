@@ -16,6 +16,10 @@ body {
   background: white;
   border-radius: 10px;
 }
+.nav-logo-text{
+  font-family: "Inter"; sans-serif;
+  font-weight: 900 !important;
+}
 
 h1,
 h2,
@@ -124,4 +128,18 @@ p {
   }
   
   
+}
+
+.hero{
+  padding-top: 100px !important;
+
+}
+
+.hero h1{
+  font-weight: 700;
+  font-size: 55px;
+}
+.hero p{
+  background-color: white;
+  font-size: 20px
 }
