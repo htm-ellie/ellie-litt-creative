@@ -16,13 +16,17 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"
-          ><img src="images/littlecosaslogo.jpg" alt="" class="logo"
-        /></a>
+        <a class="navbar-brand nav-logo-text" href="/">ELLIE LITT</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,14 +41,188 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About me</a>
-            <a class="nav-link" href="/about.html#contact">Contact me</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/about.html#contact">Contact</a>
             <a class="nav-link" href="/portfolio.html">Portfolio</a>
           </div>
         </div>
       </div>
     </nav>
-    <h1>Portfolio</h1>
-    <h2>Come back soon to see the latest work from Ellie Litt</h2>
+
+    <div class="content">
+      <div class="hero">
+        <h1>Portfolio</h1>
+
+        <p>
+          Printmaker by training. Developer by obsession. Musician by instinct.
+        </p>
+      </div>
+      <div class="web-development" id="web-development-work">
+        <h2>Front-End Web Development & UI Design</h2>
+        <div class="container-fluid d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="images/weatherappss.png"
+                alt="Weather App"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">
+                  Design and deveoped using a weather app using API including a search bar for any location in the world.
+                </p>
+                <a
+                  href="https://weatheroutsideis.netlify.app/"
+                  class="btn btn-primary"
+                  title="Launch  Weather App"
+                  >Launch App</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="/images/airecipess.png"
+                alt="AI Recipe Generator"
+              />
+              <div class="card-body">
+                <h5 class="card-title">AI Recipe Generator</h5>
+                <p class="card-text">
+                  Developed an AI Cuban Recipe Generator so you can cook as good as your Abuelita.
+                </p>
+                <a
+                  href="https://cocinandoconai.netlify.app/"
+                  class="btn btn-primary"
+                  title="Launch AI Recipe Generator"
+                  >Launch App</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img class="card-img-top" src="images/worldclockss.png" alt="World Clock App" />
+              <div class="card-body">
+                <h5 class="card-title">World Clock</h5>
+                <p class="card-text">
+                  What time is it? Designed and developed a world clock using an API. Find the time, anywhere.
+                </p>
+                <a href="https://relojmundo.netlify.app/" class="btn btn-primary" title="Launch World Clock App"
+                  >Launch App</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        <div class="printmaking" id="printmaking-work">
+          <h2>Little Cosas - Printmaking</h2>
+        </div>
+        <div class="container-fluid d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img class="card-img-top" src="/images/little-cosas-mini-stamps.jpg" alt="Little Cosas hand-carved mini stamps" />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img class="card-img-top" src="/images/little-cosas-tools.jpg" alt="Little Cosas business card" />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music" id="musical-works">
+        <h2>Music</h2>
+        <div class="container-fluid d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="images/t3am-sxro-album-cover.png"
+                alt="T3AM SXRO Album"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Band Works</h5>
+                <p class="card-text">
+                  Composed, wrote lyrics, produced, played piano, synth, ukelele, lead vocals for the band, T3AM. Live on Spotify.
+                </p>
+                <a
+                  href="https://open.spotify.com/album/1Wxf9GfbEK7HadwOAjGKKa?si=oJDVKwoyQTmxp2Tw0jDZPg"
+                  class="btn btn-primary"
+                  title="Listen to Album on Spotify"
+                  >Listen here</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="/images/ellie-solo-music.png"
+                alt="AI Recipe Generator"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Solo work: ReverbNation</h5>
+                <p class="card-text">
+                  Original songs that I've written and produced on ReverbNation
+                </p>
+                <a
+                  href="https://www.reverbnation.com/ellielrodriguez"
+                  class="btn btn-primary"
+                  title="Listen to Original Work"
+                  >Listen here</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img class="card-img-top" src="images/ellie-soundcloud.png" alt="Ellie on SoundCloud" />
+              <div class="card-body">
+                <h5 class="card-title">Looping and Features: SoundCloud</h5>
+                <p class="card-text">
+                  Playing with looping cover songs and features on songs from other artists.
+                </p>
+                <a href="https://on.soundcloud.com/PT1YxqZkrXTcvo23yZ" class="btn btn-primary" title="Listen on SoundCloud"
+                  >Listen</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
   </body>
 </html>
