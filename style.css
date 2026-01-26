@@ -44,12 +44,10 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -144,4 +142,10 @@ p {
   background-color: white;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700 !important;
+  font-size: 40px !important;
 }
