@@ -119,6 +119,7 @@ p {
 }
 
 @media (max-width: 900px) {
+
   .descriptions {
     text-align: center;
   }
@@ -127,6 +128,23 @@ p {
   }
   h1 {
     font-size: 40px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  .about-me-text {
+    width: 100% !important;
+    padding: 10px !important;
+    text-align: center !important;;
+  }
+  .app-card{
+    margin-bottom: 10px;
+  }
+  .lc-button{
+    width: 100% !important;
+  }
+  .footer-icons{
+    justify-content: center !important;;
   }
 }
 
